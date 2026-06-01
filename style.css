@@ -50,3 +50,30 @@ ul {
     }
 
 }
+
+main{
+    .container{
+        height: 300px;
+        background-color: aquamarine;
+        padding: 0 20px;
+        display: flex;
+        gap: 40px;
+    }
+
+    div{ width: 500px; }
+
+    img{ width: 100%; }
+
+    .text-container{
+
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 20px;
+
+    }
+
+}
+        
+
